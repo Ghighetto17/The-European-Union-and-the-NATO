@@ -1,0 +1,96 @@
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f5f8;
+    color: #2c3e50;
+}
+
+/* TOP NAVIGATION */
+.top-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #3a5f7d;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.top-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.top-nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-nav a:hover {
+    text-decoration: underline;
+}
+
+/* NATO special link */
+.nato-link {
+    background-color: #2f4f66;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+/* HEADER */
+.main-header {
+    background-color: #e3ebf2;
+    text-align: center;
+    padding: 120px 20px 40px;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.main-header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* SECTIONS */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #3a5f7d;
+}
+
+/* IMAGES */
+.images {
+    text-align: center;
+}
+
+.images img {
+    width: 280px;
+    margin: 10px;
+    border-radius: 6px;
+    border: 2px solid #cfd8e3;
+}
+
+/* FOOTER */
+footer {
+    background-color: #2f4f66;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
