@@ -130,3 +130,8 @@ p, li {
     font-size: 16px;
     line-height: 1.6;
 }
+
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
