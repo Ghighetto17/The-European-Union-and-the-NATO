@@ -136,27 +136,25 @@ html {
     text-size-adjust: 100%;
 }
 
-/* MOBILE LAYOUT */
-@media (max-width: 768px) {
+/* FORCE MOBILE LAYOUT */
+@media screen and (max-width: 768px) {
 
     .eu-intro {
-        flex-direction: column;
-        align-items: stretch;
+        display: block !important;
+    }
+
+    .eu-intro .text {
+        width: 100%;
     }
 
     .eu-intro .image {
+        width: 100%;
         text-align: center;
         margin-top: 20px;
     }
 
-    .eu-intro img {
+    .eu-intro .image img {
         max-width: 100%;
         height: auto;
     }
-
-    section {
-        margin: 15px;
-        padding: 20px;
-    }
 }
-
