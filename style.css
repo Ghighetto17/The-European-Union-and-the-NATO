@@ -127,7 +127,7 @@ footer {
 }
 
 /* RESPONSIVE DESIGN - MOBILE */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 
     /* Navigation bar */
     .top-nav li {
