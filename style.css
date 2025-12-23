@@ -129,53 +129,33 @@ footer {
 /* RESPONSIVE DESIGN - MOBILE */
 @media screen and (max-width: 480px) {
 
-    /* NAV BAR */
-    .top-nav {
-        padding: 15px 0;
-    }
-
-    .top-nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .top-nav li {
-        display: block;
-        margin: 8px 0;
-    }
-
+    /* Bigger navigation text */
     .top-nav a {
-        font-size: 20px;
-        padding: 8px 12px;
+        font-size: 18px;
     }
 
-    /* HEADER SPACING */
+    /* Slightly taller navbar */
+    .top-nav {
+        padding: 14px 0;
+    }
+
+    /* Header spacing (fixed navbar fix) */
     .main-header {
-        padding-top: 160px;
+        padding-top: 150px;
     }
 
-    /* MAIN TITLE */
-    .main-header h1 {
-        font-size: 34px;
-    }
-
-    .main-header p {
-        font-size: 20px;
-    }
-
-    /* SECTION TITLES */
+    /* Bigger section titles */
     h2 {
-        font-size: 28px;
+        font-size: 26px;
     }
 
-    /* TEXT */
+    /* Better text readability */
     section p {
-        font-size: 17px;
-        line-height: 1.7;
+        font-size: 16px;
+        line-height: 1.6;
     }
 
-    /* LAYOUT */
+    /* Stack layout vertically */
     .eu-intro {
         flex-direction: column;
         text-align: center;
@@ -183,11 +163,10 @@ footer {
 
     .eu-intro .image {
         text-align: center;
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     .eu-intro img {
-        width: 90%;
-        max-width: 320px;
+        max-width: 90%;
     }
 }
