@@ -38,7 +38,7 @@ body {
     text-decoration: underline;
 }
 
-.top-nav .selected {
+.selected {
     color: gray;
 }
 
