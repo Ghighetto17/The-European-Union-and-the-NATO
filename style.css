@@ -38,10 +38,6 @@ body {
     text-decoration: underline;
 }
 
-.selected {
-    color: gray;
-}
-
 /* NATO special link */
 .nato-link {
     background-color: #2f4f66;
