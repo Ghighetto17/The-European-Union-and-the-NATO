@@ -158,3 +158,43 @@ html {
         height: auto;
     }
 }
+
+/* =========================
+   NATO PAGE – BLUE THEME
+   ========================= */
+
+.nato-page {
+    background-color: #eef4fb;
+    color: #1f3550;
+}
+
+.nato-page .top-nav {
+    background-color: #1e3f66;
+}
+
+.nato-page .nato-link {
+    background-color: #0d2f52;
+}
+
+.nato-page .main-header {
+    background-color: #dbe9f6;
+}
+
+.nato-page h1,
+.nato-page h2 {
+    color: #1b4f9c;
+}
+
+.nato-page section {
+    background-color: #ffffff;
+    border-left: 5px solid #1b4f9c;
+}
+
+.nato-page .images img,
+.nato-page .eu-intro img {
+    border: 2px solid #1b4f9c;
+}
+
+.nato-page footer {
+    background-color: #1e3f66;
+}
